@@ -1,5 +1,8 @@
 package Models;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Docter {
     int dId;
     String degree;
@@ -10,7 +13,9 @@ public class Docter {
     int timeSlot;
     List<Patient> patientList;
 
-    public Docter(int dId, String degree, String name, int phoneNo, String speciality, int salary, int timeSlot, List<Patient> patientList  ) {
+
+
+    public Docter(int dId, String degree, String name, int phoneNo, String speciality, int salary, int timeSlot,List<Patient> patientList ) {
         this.dId = dId;
         this.degree = degree;
         this.name = name;
