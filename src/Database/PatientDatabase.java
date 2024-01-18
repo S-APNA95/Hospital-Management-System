@@ -14,6 +14,12 @@ public class PatientDatabase {
         String pId = obj.getpId();
         PatientdB.put(pId, obj);
     }
+
+    public int getTotalPatientCount(){
+        return PatientdB.size();
+
+    }
+
     public Patient getPatient(String pId){
         return PatientdB.get(pId);
     }
